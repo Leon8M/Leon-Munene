@@ -3,10 +3,10 @@ import emailjs from "@emailjs/browser";
 import { FaArrowRight } from "react-icons/fa";
 
 const socialLinks = [
-  { name: "WhatsApp", url: "https://wa.me/your-number" },
-  { name: "Instagram", url: "https://instagram.com/your-profile" },
-  { name: "Twitter", url: "https://twitter.com/your-profile" },
-  { name: "LinkedIn", url: "https://linkedin.com/in/your-profile" },
+  { name: "WhatsApp", url: "https://wa.me/+254759604380" },
+  { name: "GitHub", url: "https://github.com/Leon8M" },
+  { name: "Twitter", url: "https://x.com/leon_nex" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/leon-munene/" },
 ];
 
 const Contact = () => {
