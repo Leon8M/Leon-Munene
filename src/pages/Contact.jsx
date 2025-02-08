@@ -134,7 +134,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Write your message here..."
               rows="5"
-              className="bg-black-200 text-white p-3 rounded-md outline-none focus:ring-2 focus:ring-primary"
+              className="bg-black-200 text-black p-3 rounded-md outline-none focus:ring-2 focus:ring-primary"
               required
             ></textarea>
           </div>
