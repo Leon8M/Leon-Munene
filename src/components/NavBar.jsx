@@ -17,10 +17,10 @@ const Navbar = () => {
       {/* Desktop Links */}
       <div className="hidden md:flex items-center space-x-8 font-medium">
         <Link
-          to="/"
+          to="https://purple-pebble-05c780110.4.azurestaticapps.net/"
           className="hover:text-orange-500 transition-colors duration-300"
         >
-          Home
+          Blog
         </Link>
         
         <Link
@@ -56,11 +56,11 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-black flex flex-col items-center py-4 gap-4 md:hidden shadow-lg">
           <Link
-            to="/"
+            to="https://purple-pebble-05c780110.4.azurestaticapps.net/"
             className="hover:text-orange-500 transition-colors duration-300"
             onClick={() => setIsOpen(false)}
           >
-            Home
+            Blog
           </Link>
        
           <Link

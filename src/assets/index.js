@@ -16,7 +16,12 @@ import tailwind from "./tech/tailwind.png";
 
 import screen from "./screen.jpg";
 import peer from "./peer.png";
-
+import anchored from "./anchored.png";
+import blog from "./blog.png";
+import leads from "./leads.PNG";
+import luminous from "./luminous.png";
+import og from "./og.png";
+import wellbe from "./wellbe.png";
 
 export {
     github,
@@ -32,6 +37,12 @@ export {
     flask,
     python,
     peer,
-    screen
+    screen,
+    anchored,
+    blog,
+    leads,
+    luminous,
+    og,
+    wellbe,
   };
 
