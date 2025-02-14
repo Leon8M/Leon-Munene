@@ -1,4 +1,4 @@
-import { github, peer, screen, og, anchored, wellbe, luminous, leads, blog } from "../assets"; // GitHub logo
+import { github, peer, screen, og, anchored, wellbe, luminous, leads, blog, linked } from "../assets"; // GitHub logo
 
 ;
 
@@ -20,6 +20,14 @@ const projects = [
     technologies: ["React", "Python", "Flask", "Tailwind"],
   },
   {
+    title: "LinkedList API",
+    description: "A Porftolio website for Anthony Njeru, an auditor",
+    website: "https://github.com/Leon8M/LinkedList-API/blob/main/README.md",
+    github: "https://github.com/Leon8M/LinkedList-API",
+    image: linked,
+    technologies: ["Rust", "React", "Tailwind"],
+  },
+  {
     title: "Anthony's Portfolio",
     description: "A Porftolio website for Anthony Njeru, an auditor",
     website: "https://anthonynjeru.netlify.app/",
@@ -32,7 +40,7 @@ const projects = [
     description: "This is a chrome addon that saves url's of websites one is on",
     website: "https://zealous-desert-0df9b7c10.5.azurestaticapps.net/",
     github: "https://github.com/Leon8M/New-Portfolio",
-    image: leads,
+    image: og,
     technologies: ["React", "Tailwind"],
   },
   {

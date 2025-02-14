@@ -22,6 +22,7 @@ import leads from "./leads.png";
 import luminous from "./luminous.png";
 import og from "./og.png";
 import wellbe from "./wellbe.png";
+import linked from "./linked.png";
 
 export {
     github,
@@ -44,5 +45,6 @@ export {
     luminous,
     og,
     wellbe,
+    linked,
   };
 
