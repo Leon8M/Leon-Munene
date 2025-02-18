@@ -18,7 +18,7 @@ const About = () => {
       </div>
 
       <div className="mt-10">
-        <h3 className="text-3xl font-bold uppercase text-center tracking-wide">Skills</h3>
+        <h3 className="text-3xl font-bold uppercase text-center tracking-wide">Languages & Frameworks</h3>
         <div className="flex flex-wrap justify-center gap-8 mt-8">
           {skills.map((skill, index) => (
             <div
