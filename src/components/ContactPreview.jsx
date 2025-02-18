@@ -1,3 +1,4 @@
+//Footer with link to the Contact Page
 import { useNavigate } from "react-router-dom";
 
 const ContactPreview = () => {

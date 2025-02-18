@@ -1,3 +1,4 @@
+//Here lies the Home page
 import Hero from "../components/Hero";
 import About from "../components/About";
 import ProjectsPreview from "../components/ProjectsPreview";

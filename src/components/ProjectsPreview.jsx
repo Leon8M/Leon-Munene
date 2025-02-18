@@ -1,4 +1,4 @@
-import projects from "../data/projects";
+import projects from "../data/projects"; //Where projects are listed; i will render them dynamically
 import { Link } from "react-router-dom";
 import { github } from "../assets";
 

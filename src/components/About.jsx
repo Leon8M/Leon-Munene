@@ -1,20 +1,22 @@
+//Contains code for the About me Section
 import skills from "../data/skills";
 
 const About = () => {
   return (
     <section className="p-10 text-white bg-black">
-      {/* About Me Section */}
+
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-bold uppercase tracking-wide">Who Am I ?</h2>
         <p className="mt-4 text-gray-300 text-lg leading-relaxed">
-          I'm a software developer with experience in Python, C++, and a bit of Rust, with expertise in frameworks like React.
-          I also work with Flask. I'm a quick learner who collaborates closely with clients to create efficient, scalable, and
-          user-friendly solutions that solve real-world problems. I am also a mentor and trainer in programming languages and
-          technologies, including Python and React. Let's work together to bring your ideas to life!
+          I’m a passionate software developer skilled in Python, React, Flask, and currently learning Rust. 
+          I specialize in building efficient, scalable, and user-friendly solutions to solve real-world problems. 
+          With strong problem-solving skills, I write clean, optimized code to deliver robust applications. 
+          As a Microsoft Student Ambassador and Tech Lead, I’ve mentored peers, conducted workshops on Python and React, 
+          and led teams to deliver impactful projects. I thrive in dynamic environments, constantly learning new technologies to stay ahead. 
+          Let’s collaborate to bring your ideas to life and create solutions that make a difference!
         </p>
       </div>
 
-      {/* Skills Section */}
       <div className="mt-10">
         <h3 className="text-3xl font-bold uppercase text-center tracking-wide">Skills</h3>
         <div className="flex flex-wrap justify-center gap-8 mt-8">

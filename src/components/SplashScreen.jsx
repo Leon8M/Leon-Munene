@@ -1,5 +1,6 @@
+//Contains code for the opening animation
 import { useEffect, useState } from "react";
-import "./SplashScreen.css"; // Import styles
+import "./SplashScreen.css"; // Import opening animation styles
 
 const SplashScreen = ({ onAnimationEnd }) => {
   const [hideBox, setHideBox] = useState(false);
@@ -10,7 +11,7 @@ const SplashScreen = ({ onAnimationEnd }) => {
       if (onAnimationEnd) {
         onAnimationEnd();
       }
-    }, 3000); // Disappear right after fill animation (3s)
+    }, 3000); 
   }, [onAnimationEnd]);
 
   return (

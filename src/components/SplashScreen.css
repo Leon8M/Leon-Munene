@@ -12,13 +12,13 @@
 
 .logo {
     width: 200px;
-    animation: fill 0.6s ease forwards 2.5s; /* Start fill earlier */
+    animation: fill 0.6s ease forwards 2.5s; 
 }
 
 .logo path {
     stroke-dasharray: 2229;
     stroke-dashoffset: 2229;
-    animation: text-anim 2.5s ease forwards; /* Faster stroke animation */
+    animation: text-anim 2.5s ease forwards; 
 }
 
 @keyframes text-anim {
@@ -38,6 +38,6 @@
 
 .hide {
     opacity: 0;
-    transform: translateY(-100%); /* Moves splash screen UP */
+    transform: translateY(-100%); 
     pointer-events: none;
 }

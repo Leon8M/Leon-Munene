@@ -1,3 +1,4 @@
+//Here lies the Contact page
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaArrowRight } from "react-icons/fa";

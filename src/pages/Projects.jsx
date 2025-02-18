@@ -1,3 +1,4 @@
+//Here lies the Projects page
 import projects from "../data/projects";
 import { github } from "../assets";
 

@@ -1,3 +1,4 @@
+//Here is the Navigation Bar
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
@@ -9,12 +10,12 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center px-6 py-4 bg-black text-white sticky top-0 z-50">
-      {/* Logo */}
+
       <Link to="/" className="flex items-center space-x-2">
         <img src={logo} alt="Logo" className="h-10 w-auto" />
       </Link>
 
-      {/* Desktop Links */}
+
       <div className="hidden md:flex items-center space-x-8 font-medium">
         <Link
           to="https://purple-pebble-05c780110.4.azurestaticapps.net/"
@@ -44,7 +45,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      {/* Mobile Menu Icon */}
+
       <button
         className="md:hidden text-white"
         onClick={() => setIsOpen(!isOpen)}
