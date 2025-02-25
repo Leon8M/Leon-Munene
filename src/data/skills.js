@@ -1,6 +1,5 @@
 import {
     css,
-    docker,
     rust,
     git,
     html,
@@ -21,7 +20,6 @@ import {
     { name: "JavaScript", icon: javascript },
     { name: "C++", icon: cplus },
     { name: "Git", icon: git },
-    { name: "Docker", icon: docker },
     { name: "HTML", icon: html },
     { name: "CSS", icon: css },
   ];

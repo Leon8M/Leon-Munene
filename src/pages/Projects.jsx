@@ -23,6 +23,16 @@ const Projects = () => {
             <div className="p-5">
               <h3 className="text-lg font-bold mb-2">{project.title}</h3>
               <p className="text-gray-400 text-sm mb-3">{project.description}</p>
+              <div className="flex flex-wrap gap-2 mb-3">
+                     {project.technologies.map((tech, idx) => (
+                      <span
+                      key={idx}
+                      className="text-xs text-gray-300 bg-gray-800 px-2 py-1 rounded-md"
+                              >
+                              {tech}
+                      </span>
+                   ))}
+              </div>
               <div className="flex justify-between items-center">
                 <a
                   href={project.website}

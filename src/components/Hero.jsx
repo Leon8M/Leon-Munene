@@ -43,19 +43,17 @@ const Hero = () => {
 
       <div
         className={`relative flex justify-center transform ${
-          showContent ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
+        showContent ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
         } transition-all duration-700 ease-in-out`}
       >
-
         <div className="relative">
           <img
-            src="/me-clear.png"
+            src="/me-clear.jpg"
             alt="Leon"
-            className="w-48 h-64 md:w-64 md:h-80 lg:w-72 lg:h-96 object-cover rounded-lg shadow-lg relative z-10"
+            className="w-48 h-64 md:w-64 md:h-80 lg:w-72 lg:h-96 object-cover rounded-lg shadow-[0_0_30px_10px_rgba(0,0,0,0.5)] filter drop-shadow-[0_0_20px_rgba(255,255,255,0.15)] border-2 border-black/50 relative z-10"
           />
 
-
-          <div className="absolute inset-0 w-48 h-64 md:w-64 md:h-80 lg:w-72 lg:h-96 bg-gradient-to-br from-purple-600 via-pink-500 to-orange-500 blur-lg rounded-lg -z-10 animate-pulse" />
+          <div className="absolute inset-0 w-48 h-64 md:w-64 md:h-80 lg:w-72 lg:h-96 bg-gradient-to-br from-purple-600 via-pink-500 to-orange-500 blur-2xl rounded-lg -z-10 animate-pulse opacity-70" />
         </div>
       </div>
 
