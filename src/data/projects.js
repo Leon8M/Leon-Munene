@@ -44,9 +44,9 @@ const projects = [
     technologies: ["React", "Tailwind"],
   },
   {
-    title: "Anchored Heights",
-    description: "A Company website for Anchored Heights; Cost-Efficient and Safe High-Altitude Cleaning Solutions",
-    website: "https://white-beach-05559e510.5.azurestaticapps.net/",
+    title: "Vertical Techniques",
+    description: "A Company website for Vertical techniques Ltd; Cost-Efficient and Safe High-Altitude Cleaning Solutions",
+    website: "https://www.verticaltechniques.co.ke//",
     github: "https://github.com/Leon8M/Anchored-Heights",
     image: anchored,
     technologies: ["React", "Tailwind"],
