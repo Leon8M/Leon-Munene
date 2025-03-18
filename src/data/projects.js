@@ -28,6 +28,14 @@ const projects = [
     technologies: ["Rust", "React", "Tailwind"],
   },
   {
+    title: "Vertical Techniques",
+    description: "A Company website for Vertical techniques Ltd; Cost-Efficient and Safe High-Altitude Cleaning Solutions",
+    website: "https://www.verticaltechniques.co.ke//",
+    github: "https://github.com/Leon8M/Anchored-Heights",
+    image: anchored,
+    technologies: ["React", "Tailwind"],
+  },
+  {
     title: "Anthony's Portfolio",
     description: "A Porftolio website for Anthony Njeru, an auditor",
     website: "https://anthonynjeru.netlify.app/",
@@ -41,14 +49,6 @@ const projects = [
     website: "https://zealous-desert-0df9b7c10.5.azurestaticapps.net/",
     github: "https://github.com/Leon8M/New-Portfolio",
     image: og,
-    technologies: ["React", "Tailwind"],
-  },
-  {
-    title: "Vertical Techniques",
-    description: "A Company website for Vertical techniques Ltd; Cost-Efficient and Safe High-Altitude Cleaning Solutions",
-    website: "https://www.verticaltechniques.co.ke//",
-    github: "https://github.com/Leon8M/Anchored-Heights",
-    image: anchored,
     technologies: ["React", "Tailwind"],
   },
   {
