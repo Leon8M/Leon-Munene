@@ -4,6 +4,22 @@ import { github, peer, screen, og, anchored, wellbe, luminous, leads, blog, link
 
 const projects = [
   {
+    title: "Vertical Techniques",
+    description: "A Company website for Vertical techniques Ltd; Cost-Efficient and Safe High-Altitude Cleaning Solutions",
+    website: "https://www.verticaltechniques.co.ke//",
+    github: "https://github.com/Leon8M/Anchored-Heights",
+    image: anchored,
+    technologies: ["React", "Tailwind"],
+  },
+  {
+    title: "The Nex Journal",
+    description: "The Nex Journal is a personal blog with a React frontend (Azure) and a Flask backend (Render) using SQLite.",
+    website: "https://blog-9k5.pages.dev/",
+    github: "https://github.com/Leon8M/Blog",
+    image: blog,
+    technologies: ["React", "Python", "Flask", "Tailwind"],
+  },
+  {
     title: "Peer-Learn",
     description: "A peer-to-peer learning platform for university students.",
     website: "https://lively-tree-062a6b710.4.azurestaticapps.net/",
@@ -11,14 +27,7 @@ const projects = [
     image: peer,
     technologies: ["React", "Flask", "Python", "Tailwind"],
   },
-  {
-    title: "The Nex Journal",
-    description: "The Nex Journal is a personal blog with a React frontend (Azure) and a Flask backend (Render) using SQLite.",
-    website: "https://purple-pebble-05c780110.4.azurestaticapps.net/",
-    github: "https://github.com/Leon8M/Blog",
-    image: blog,
-    technologies: ["React", "Python", "Flask", "Tailwind"],
-  },
+  
   {
     title: "LinkedList API",
     description: "A Porftolio website for Anthony Njeru, an auditor",
@@ -26,14 +35,6 @@ const projects = [
     github: "https://github.com/Leon8M/LinkedList-API",
     image: linked,
     technologies: ["Rust", "React", "Tailwind"],
-  },
-  {
-    title: "Vertical Techniques",
-    description: "A Company website for Vertical techniques Ltd; Cost-Efficient and Safe High-Altitude Cleaning Solutions",
-    website: "https://www.verticaltechniques.co.ke//",
-    github: "https://github.com/Leon8M/Anchored-Heights",
-    image: anchored,
-    technologies: ["React", "Tailwind"],
   },
   {
     title: "Anthony's Portfolio",
