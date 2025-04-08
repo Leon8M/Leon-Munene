@@ -46,7 +46,7 @@ const projects = [
   },
   {
     title: "My Former Portfolio",
-    description: "This is a chrome addon that saves url's of websites one is on",
+    description: "My older Portfolio website",
     website: "https://zealous-desert-0df9b7c10.5.azurestaticapps.net/",
     github: "https://github.com/Leon8M/New-Portfolio",
     image: og,
