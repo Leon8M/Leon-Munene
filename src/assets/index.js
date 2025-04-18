@@ -14,6 +14,7 @@ import python from "./tech/python.png";
 import tailwind from "./tech/tailwind.png";
 
 
+
 import screen from "./screen.jpg";
 import peer from "./peer.png";
 import anchored from "./anchored.png";
@@ -23,6 +24,7 @@ import luminous from "./luminous.png";
 import og from "./og.png";
 import wellbe from "./wellbe.png";
 import linked from "./linked.png";
+import money from "./money.png";
 
 export {
     github,
@@ -46,5 +48,6 @@ export {
     og,
     wellbe,
     linked,
+    money,
   };
 

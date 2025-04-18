@@ -1,4 +1,4 @@
-import { github, peer, screen, og, anchored, wellbe, luminous, leads, blog, linked } from "../assets"; // GitHub logo
+import { github, peer, screen, og, anchored, wellbe, luminous, leads, blog, linked, money } from "../assets"; // GitHub logo
 
 ;
 
@@ -18,6 +18,14 @@ const projects = [
     github: "https://github.com/Leon8M/Blog",
     image: blog,
     technologies: ["React", "Python", "Flask", "Tailwind"],
+  },
+  {
+    title: "Me Manager",
+    description: "Take control of your life with Me Manager! A simple and intuitive app to help you manage your finances, tasks, and more, all in one place.",
+    website: "https://me-manager.vercel.app/",
+    github: "https://github.com/Leon8M/Me-Manager",
+    image: money,
+    technologies: ["React", "Flask", "Python", "Tailwind"],
   },
   {
     title: "Peer-Learn",
