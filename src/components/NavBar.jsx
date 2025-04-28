@@ -18,7 +18,7 @@ const Navbar = () => {
 
       <div className="hidden md:flex items-center space-x-8 font-medium">
         <Link
-          to="https://purple-pebble-05c780110.4.azurestaticapps.net/"
+          to="https://blog-9k5.pages.dev/"
           className="hover:text-orange-500 transition-colors duration-300"
         >
           Blog
