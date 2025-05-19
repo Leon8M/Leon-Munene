@@ -38,7 +38,7 @@ const projects = [
   
   {
     title: "LinkedList API",
-    description: "A Porftolio website for Anthony Njeru, an auditor",
+    description: "A web application showcasing a Linked List implementation using a Rust backend and a React frontend.",
     website: "https://github.com/Leon8M/LinkedList-API/blob/main/README.md",
     github: "https://github.com/Leon8M/LinkedList-API",
     image: linked,
