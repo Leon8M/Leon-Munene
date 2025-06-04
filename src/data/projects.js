@@ -30,7 +30,7 @@ const projects = [
   {
     title: "Peer-Learn",
     description: "A peer-to-peer learning platform for university students.",
-    website: "https://lively-tree-062a6b710.4.azurestaticapps.net/",
+    website: "https://eeba3d15.e-learning-74b.pages.dev/",
     github: "https://github.com/Leon8M/E-learning",
     image: peer,
     technologies: ["React", "Flask", "Python", "Tailwind"],
