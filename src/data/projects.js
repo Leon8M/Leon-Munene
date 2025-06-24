@@ -46,7 +46,7 @@ const projects = [
   {
     title: "Peer-Learn",
     description: "A peer-to-peer learning platform for university students.",
-    website: "https://lively-tree-062a6b710.4.azurestaticapps.net/",
+    website: "https://eeba3d15.e-learning-74b.pages.dev/",
     github: "https://github.com/Leon8M/E-learning",
     image: peer,
     technologies: ["React", "Flask", "Python", "Tailwind"],
@@ -54,7 +54,7 @@ const projects = [
   
   {
     title: "LinkedList API",
-    description: "A Porftolio website for Anthony Njeru, an auditor",
+    description: "A web application showcasing a Linked List implementation using a Rust backend and a React frontend.",
     website: "https://github.com/Leon8M/LinkedList-API/blob/main/README.md",
     github: "https://github.com/Leon8M/LinkedList-API",
     image: linked,
