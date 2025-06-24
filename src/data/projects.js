@@ -1,8 +1,24 @@
-import { github, peer, screen, og, anchored, wellbe, luminous, leads, blog, linked, money } from "../assets"; // GitHub logo
+import { github, peer, screen, og, anchored, wellbe, luminous, leads, blog, linked, money, learnai, refactor } from "../assets"; // GitHub logo
 
 ;
 
 const projects = [
+  {
+    title: "AI LearnHub",
+    description: "AI LearnHub ia a platfrom for users to use AI to generate courses and learn from them",
+    website: "https://learn-with-ai-lilac.vercel.app/",
+    github: "https://github.com/Leon8M/LearnWithAi",
+    image: learnai,
+    technologies: ["NextJs", "Tailwind", "Clerk", "Shadcn"],
+  },
+  {
+    title: "Python Code Refactor AI",
+    description: "A web application that uses AI to refactor Python code, making it cleaner and more efficient.",
+    website: "https://python-refactor.vercel.app/",
+    github: "https://github.com/Leon8M/Python-Refactor",
+    image: refactor,
+    technologies: ["NextJs", "Tailwind", "PrismJs"],
+  },
   {
     title: "Vertical Techniques",
     description: "A Company website for Vertical techniques Ltd; Cost-Efficient and Safe High-Altitude Cleaning Solutions",

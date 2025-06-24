@@ -25,6 +25,8 @@ import og from "./og.png";
 import wellbe from "./wellbe.png";
 import linked from "./linked.png";
 import money from "./money.png";
+import learnai from "./learnai.png";
+import refactor from "./refactor.png";
 
 export {
     github,
@@ -49,5 +51,7 @@ export {
     wellbe,
     linked,
     money,
+    learnai,
+    refactor
   };
 
